@@ -1,3 +1,10 @@
 # sariah Kamore, variables
 
-print("it worked")
+
+subject = input("what's your favorite subject: ")
+
+small_number = 4
+
+name = input("what is your name: ")
+
+print(name, "really likes", subject)

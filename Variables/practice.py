@@ -1,0 +1,1 @@
+# sariah kamore, variables notes
