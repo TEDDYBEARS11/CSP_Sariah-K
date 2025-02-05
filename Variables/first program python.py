@@ -1,5 +1,5 @@
-# sariah kamore, variables notes
-name = "sariah"
+# sariah kamore, first program python
+name = input ("put your name here: ")
 subject = "english"
 print(name, "really liked", subject)
 subject = input("what is your favorite color:")

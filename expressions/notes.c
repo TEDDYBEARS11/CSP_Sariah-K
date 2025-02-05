@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <math.h>
 //float x = pow(2,2);
-//float equation = 5*7+11/(5-x);
+//float y = pow(2,3);
 float pi = 3.14159;
 // + - * /
 int main(void){
