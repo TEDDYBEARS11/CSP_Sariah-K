@@ -1,4 +1,4 @@
-// Sariah Kamore, template.c
+// Sariah Kamore, financial calculator. c
 #include <stdio.h>
 
 int main(void)
