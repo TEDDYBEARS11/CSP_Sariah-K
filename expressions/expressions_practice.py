@@ -16,7 +16,14 @@ N14 = 17
 solution4 = (N14-N5/N8)+N4*N7
 print(solution4)
 N15= -1
-solution5 = N16(1*N4-N8/N8)+(N10+N8-N7)
+N16= -2
+solution5 = N16*(1*N4-N8/N8)+(N10+N8-N7)
 print(solution5)
-solution6 = N15*[(N7-N4*N1)/N9]-N8*24/N5
+solution6 = N15*((N7-N4*N1)/N9)-N8*24/N5
 print(solution6)
+solution7 = (N7*N9**N8/15)-(N9-N8**N8)
+print(solution7)
+solution8 = (1**N4*N8**N8+N7**N7)-N8**N9/N4
+print(solution8)
+solution9 = (22/N8-N8*N9)**N8+(N4-N10/N5)**N8
+print(solution9)
