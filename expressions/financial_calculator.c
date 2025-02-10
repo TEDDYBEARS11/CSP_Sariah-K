@@ -1,13 +1,14 @@
 // Sariah Kamore, financial calculator. c
 #include <stdio.h>
-
+float income;
+float rent;
 int main(void)
 {
     printf("Hello world");
     return 0;
 }
 //ask what their income is (variable an input)
-
+printf("what is your income?");
 //ask what their rent is (variable that is an input)
 
 //ask what their untilites is (variable that is an input)
