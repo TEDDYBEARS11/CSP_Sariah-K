@@ -22,7 +22,7 @@ print("your rent is", rent, "which is", rent/income*100, "percent of your income
 #Your utilities is $xx.xx which is xx% of your income. (print)
 print("your utilities is", utilities, "which is", utilities/income*100, "percent of your income")
 #Your groceries is $xx.xx which is xx% of your income. (print)
-print("your groceries is", groceries, "which is", groceries/income*100, "percent of yout income")
+print("your groceries is", groceries, "which is", groceries/income*100, "percent of your income")
 #Your tansportation is $xx.xx which is xx% of your income. (print)
 print("your transportation is", transportation, "which is", transportation/income*100, "percent of your income")
 #Your savings is $xx.xx which is xx% of your income. (print)
