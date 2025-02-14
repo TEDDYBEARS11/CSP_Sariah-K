@@ -11,8 +11,6 @@ int eye_color[50];
 int year;
 int school[50];
 
-
-
 int main(void)
 {
     printf("what is your name?\n");
