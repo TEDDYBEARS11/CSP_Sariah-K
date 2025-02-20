@@ -2,6 +2,9 @@
 def info(cost, income, type):
     percent = cost/income *100
     print(f"your {type} is ${cost:.2f} which is {percent}% of your income.")
+def pay(bills, income, fees):
+    percent = bills/income *100
+    print(f"your {fees} is ${income:.2f} which is {percent}% of your income.")
 
 
 
@@ -20,6 +23,10 @@ transportation = float(input("what is your transportation\n"))
 savings = income *.1
 spending = income-rent-utilities-groceries-transportation-savings
 
+
+pay(utilities, income, "utilities")
+pay(transportation,income, "transportation")
+pay(rent, income, "rent")
 info(rent, income, "rent")
 info(utilities, income, "utilities")
 info(groceries, income, "groceries")
