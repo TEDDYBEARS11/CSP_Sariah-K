@@ -1,4 +1,4 @@
-#sariah kamore financial calculator python
+#sariah kamore financial calculator updated python
 def info(cost, income, type):
     percent = cost/income *100
     print(f"your {type} is ${cost:.2f} which is {percent}% of your income.")
@@ -22,7 +22,6 @@ transportation = float(input("what is your transportation\n"))
 #calculate savings as 10% of income (income*.1)
 savings = income *.1
 spending = income-rent-utilities-groceries-transportation-savings
-
 
 pay(utilities, income, "utilities")
 pay(transportation,income, "transportation")
