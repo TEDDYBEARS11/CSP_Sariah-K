@@ -1,15 +1,18 @@
 //sariah kamore hello world c
 #include <stdio.h>
+char user(char name[]){
+    printf("Hello%s, Welcome. \n", name);
 
-//function is written that says hello to given name
-//function is called with 5 different names
+}
 
-void(char name[])
+int main(void){
 
-{
-    printf("what is your name?\n");
-    scanf("%s", name);
-    printf("Hello %s\n", name);
+    user ("Jessica");
+    user ("paige");
+    user("Sara");
+    user ("Zoe");
+    user("Archie");
+
     return 0;
 }
 
