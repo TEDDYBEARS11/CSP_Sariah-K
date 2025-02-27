@@ -10,5 +10,5 @@ elif age == 18:
     print("you can vote")
 elif age == 16:
     print("you can drive")
-elif age <= 35:
-        print("you are old")
+else:
+    print("you are old")
