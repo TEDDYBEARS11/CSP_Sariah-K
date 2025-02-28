@@ -1,9 +1,8 @@
 #sariah Kamore hello world python
 
 def name ():
-    print("what is your name?")
     name = input()
-    print("hello", name)
+    
 name()
 
 
@@ -13,3 +12,4 @@ input("alex")
 input("james")
 input("jane")
 input("josh")
+print("hello" + name)
