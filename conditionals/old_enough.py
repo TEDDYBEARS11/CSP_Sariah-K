@@ -1,14 +1,18 @@
 # sariah kamore old enough python
 
-age = int(input("how old are you: "))
+num = int(input("how old are you: "))
 
-if age ==5:
-    print("you can go to school")
-elif age == 15:
-    print("you can get a learners permit")
-elif age == 18:
+if num == 0:
+    print("you are a baby")
+elif num <=18:
     print("you can vote")
-elif age == 16:
+elif num <=5:
+    print("you can go to school")
+elif num <=15:
+    print("you can get a permit")
+elif num <=16:
     print("you can drive")
-else:
+elif num <35:
     print("you are old")
+else:
+    print("you are ancient")
