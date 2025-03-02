@@ -1,34 +1,23 @@
 #sariah kamore financial calculator updated python
-def info(cost, income, type):
-    percent = cost/income *100
-    print(f"your {type} is ${cost:.2f} which is {percent}% of your income.")
-def pay(bills, income, fees):
-    percent = bills/income *100
-    print(f"your {fees} is ${income:.2f} which is {percent}% of your income.")
+print("this is a financial calculator")
 
+def user(type):
+    return float(input(f"how much is your monthly {type}? \n"))
 
+income = user("income")
+rent = user("rent")
+utilities = user("utilites")
+groceries = user("groceries")
+transportation  = user("transportation")
+savings = income*0.1
+expenses = rent+utilites+groceries+transportation+savings
 
-print("welcome to my financial calculator that showa your finances.")
-#ask what their income is (variable an input)
-income = float(input("what is your income?\n"))
-#ask what their rent is (variable that is an input)
-rent = float(input("what is your rent?\n"))
-#ask what their untilites is (variable that is an input)
-utilities = float(input("what are your utilities?\n"))
-#ask what their groceries is (variable that is an input)
-groceries = float(input("what is your groceries?\n"))
-#ask what their transportation is (variable that is an input)
-transportation = float(input("what is your transportation\n"))
-#calculate savings as 10% of income (income*.1)
-savings = income *.1
-spending = income-rent-utilities-groceries-transportation-savings
-
-pay(utilities, income, "utilities")
-pay(transportation,income, "transportation")
-pay(rent, income, "rent")
-info(rent, income, "rent")
-info(utilities, income, "utilities")
-info(groceries, income, "groceries")
-info(transportation, income, "transpotration")
-info(savings, income, "savings")
-info(spending, income, "spending")
+def info(income, amount, type):
+    percent_type = float(amount/income*100)
+    print(f"you spend ${amount:.2f} in {type} and that is {percent_type:.1f}% of your income")
+info(income, rent, "rent")
+info(income, utilites, "utilities")
+info(income, groceries, "groceries")
+info(income, transportation, "transportation")
+info(income, savings, "savings")
+print(f"you have ${savings:.2f} and that is 10% of your income")
