@@ -1,4 +1,4 @@
-//sariah kamore hello world c
+//sariah kamore hello world updated c
 #include <stdio.h>
 char user(char name[]){
     printf("Hello%s, Welcome. \n", name);
