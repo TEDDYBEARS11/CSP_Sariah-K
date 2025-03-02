@@ -1,32 +1,37 @@
 // Sariah Kamore, financial calculator updated. c
 #include <stdio.h>
+#include <math.h>
 
+float income, rent, utilities, groceries, transportation, spend, savings;
 
+float user(char type[]){
+  float amount; 
+  printf("what is your %s amount?\n", type);
+  scanf("%f", &amount);
+  return amount;
+}
 
+void info(float income, float amount){
+  float percent = (amount/income)*100;
+  printf("you spend $%.2f on rent which is %.2f%% your income\n", amount, percent);
+}
+int main(void){
+  printf("welcome to your financial calculator. Follow the instructions below\n");
+  income = user("income");
+  rent  = user ("rent");
+  utilities = user("utilities");
+  groceries = user("groceries");
+  transportation = user("transportation");
+  float savings = income/10;
+  float spend = income - (rent+utilities+groceries+transportation+savings);
+  float spend_percent = spend/income*100;
 
-int main(void)
-{
-    def info (cost, income, type):
-    percent = cost/income *100
-    prinf(f"your {type} is ${cost:.2f} which is {percent}% of your income.")
-    printf("welcome to my financial calculator that showa your finances.")
-  
-//ask what their income is (variable an input)
-printf("what is your income\n");
-scanf("%f", &income);
-//ask what their rent is (variable that is an input)
-printf("what is your rent\n");
-scanf("%f", &rent);
-//ask what their untilites is (variable that is an input)
-printf("what are your utilities\n");
-scanf("%f", &utilities);
-//ask what their groceries is (variable that is an input)
-printf("what are your groceries\n");
-scanf("%f", &groceries);
-//ask what their transportation is (variable that is an input)
-printf("what is your transportation\n");
-scanf("%f", &transportation);
-//calculate savings as 10% of income (income*.1)
+  info(income, rent);
+  info(income, utilities);
+  info(income, groceries);
+  info(income, transportation);
+  printf("if you have $%.2f for savings which is 10%% of your income\n", savings);
+  printf("if you have $%.2f left for spending which is %.2f%% of your income\n", spend, spend_percent);
 
   return 0;
 }
