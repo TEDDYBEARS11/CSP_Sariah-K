@@ -1,9 +1,11 @@
 // sariah kamore old enough c
 int age;
+#include <stdio.h>
+
 
 int main(void){
     printf("how old are you?\n");
-    scanf("%D", &age);
+    scanf("%d", &age);
     if(age<5){ 
         printf("you are not able to go to school");
     }else if (age == 5){
@@ -19,5 +21,5 @@ int main(void){
     }else{
         printf("you can vote, drive, go to school, and have a permit");
     }
-return 0
+return 0;
 }
