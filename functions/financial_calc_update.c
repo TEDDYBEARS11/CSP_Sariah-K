@@ -30,8 +30,9 @@ int main(void){
   info(income, utilities);
   info(income, groceries);
   info(income, transportation);
-  printf("if you have $%.2f for savings which is 10%% of your income\n", savings);
-  printf("if you have $%.2f left for spending which is %.2f%% of your income\n", spend, spend_percent);
+  printf("you spend $%.2f on savings which is 10%% of your income\n", savings);
+  printf("you spend $%.2f on spending which is %.2f%% of your income\n", spend, spend_percent);
+
 
   return 0;
 }
