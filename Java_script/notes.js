@@ -5,7 +5,7 @@ function change(){
     if(counter < images.length){
         document.getElementById("img"). src = images[counter]
         [counter]
-        counter += 1
+        counter + 1
     }else{ 
         counter = 0
         document.getElementById
@@ -17,9 +17,9 @@ function change(){
 
 
 function hello(){
-    document.getElementById("title").innerHTML = "Hello World!"
+    let name = window.prompt("what is your name?")
+    document.getElementById("title").innerHTML = "Hello " + name+ "!"
 }
-
 
 function hover(){
     document. getElementById("img"). src = "https://static.scientificamerican.com/dam/m/4c6a7129cb60ae2d/original/GettyImages-504677701_WEB.jpg?m=1720796329.143&w=1200"
@@ -30,7 +30,10 @@ function leave(){
     document. getElementById("img"). src = "https://cdn.crowdriff.com/in-use/e6a67c05-802e-cead-9e5b-ddf824ffb6cc/1080.jpg"
 }
 
-function hidden(){
-    document.getElementById
-    ("meme").style.display = "block"
+function show(){
+    document. getElementById("lost"). style.display = "block"
+}
+
+function pop(){
+    window. alert("really don't click that!")
 }
