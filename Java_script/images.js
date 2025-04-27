@@ -1,10 +1,3 @@
-const container = document.querySelector('.container');
-const hiddenImage = document.querySelector('.hidden-image');
-
-container.addEventListener('mouseenter', () => {
-  hiddenImage.style.display = 'block';
-});
-
-container.addEventListener('mouseleave', () => {
-  hiddenImage.style.display = 'none';
-});
+function change(){
+  document.getElementById("hidden").style.display = "block"
+}
