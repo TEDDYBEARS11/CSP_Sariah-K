@@ -1,0 +1,24 @@
+img{width: 25%;}
+            *{
+               background-color: rgb(140, 157, 185);
+           }
+           p{color: rgb(255, 255, 255); 
+               h1{text-align:center;}
+           font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+           #title{      
+               text-align: center;
+           }
+           #lemons{
+               display: grid;
+               grid-template-columns: 1fr, 1fr, 1fr;
+               grid-column: 3 ;
+           }
+           #w{
+            justify-content: right;
+           }
+           .chewy-regular {
+            font-family: "Chewy", system-ui;
+            font-weight: 400;
+            font-style: normal;
+          }
+          
