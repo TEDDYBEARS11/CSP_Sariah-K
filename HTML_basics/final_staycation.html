@@ -1,22 +1,43 @@
 <!DOCTYPE html>
-<html>
-    <head> <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
-        
-        <meta charset="UTF-8">
-        <title> STAYCATION </title>
-        <script src="final_staycation_web_page.js"></script>
-        <link rel = "stylesheet" href = "final.css">
-           <div id = "Park city">
-            <div id = "title"> 
-            <h1> PARK CITY </h1> </div>
-            
-            <h2> WHAT IS PARK CITY KNOWN FOR?</h2>
-            <h3><p>Park City, Utah, is a renowned mountain resort town known for its ski slopes and outdoor recreation, particularly the Deer Valley Resort and Park City Mountain Resort. Located east of Salt Lake City, it's a popular destination for both winter and summer visitors. Park City is famous for its world-class skiing and snowboarding, with two major resorts and a vast network of trails. Park City Mountain Resort is the largest ski resort in the United States. They are also well known for hosting the sundance festival. </p></h3>
-        
-          <div id = "Q"> <img id="w" src="https://media.istockphoto.com/id/175397522/photo/dusk-view-of-park-city-glowing.jpg?s=612x612&w=0&k=20&c=XV1dDU77cKmoHieh1UASiY0ByLONjIOU0KWpsK4xZG8="  alt="park city">
-        <h4>IMAGE FROM: istockphoto</h4>
-            </div> 
-    </head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Park City, Utah</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Explore Park City, Utah</h1>
+    </header>
+
+    <div class="container">
+        <p>
+            Park City is a picturesque mountain town in Utah known for its world-class skiing and charming downtown. 
+            The town hosted events during the 2002 Winter Olympics and is home to the renowned Sundance Film Festival. 
+            Whether you're an adventure seeker or a film buff, Park City offers a unique and unforgettable experience.
+        </p>
+
+        <ul>
+            <li>World-class ski resorts with breathtaking mountain views</li>
+            <li>Charming Main Street filled with shops, art, and restaurants</li>
+            <li>Home to the famous Sundance Film Festival</li>
+            <li>Beautiful hiking and biking trails in the summer</li>
+        </ul>
+
+        <div class="gallery">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Park_City_UT.jpg" alt="Park City Landscape">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/8/88/Park_City_Main_Street.jpg" alt="Main Street Park City">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/5a/Skiing_Park_City.jpg" alt="Skiing in Park City">
+        </div>
+
+        <button class="toggle-button" onclick="toggleContent()">View More About Park City</button>
+
+        <div class="hidden-content" id="extraContent">
+            <p>During the warmer months, Park City transforms into a place for outdoor enthusiasts, offering mountain biking, fly fishing, and scenic lift rides. Its blend of natural beauty and cultural events make it a year-round destination.</p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Mountain_biking_Park_City.jpg" alt="Biking in Park City" width="400">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
 </html>

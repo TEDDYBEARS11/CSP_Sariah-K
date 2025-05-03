@@ -1,24 +1,84 @@
-img{width: 25%;}
-            *{
-               background-color: rgb(140, 157, 185);
-           }
-           p{color: rgb(255, 255, 255); 
-               h1{text-align:center;}
-           font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
-           #title{      
-               text-align: center;
-           }
-           #lemons{
-               display: grid;
-               grid-template-columns: 1fr, 1fr, 1fr;
-               grid-column: 3 ;
-           }
-           #w{
-            justify-content: right;
-           }
-           .chewy-regular {
-            font-family: "Chewy", system-ui;
-            font-weight: 400;
-            font-style: normal;
-          }
-          
+body {
+    background-color: #f0f8ff;
+    color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0;
+    color: #2e4a62;
+}
+
+p {
+    max-width: 800px;
+    margin: auto;
+    padding: 10px;
+}
+
+ul {
+    max-width: 800px;
+    margin: auto;
+    padding: 10px 40px;
+}
+
+li {
+    margin: 10px 0;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 30px 0;
+}
+
+.gallery img {
+    width: 300px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+/* Hover effect on image */
+.gallery img:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.hidden-content {
+    display: none;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.toggle-button {
+    display: block;
+    margin: 30px auto;
+    padding: 10px 20px;
+    background-color: #2e4a62;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.toggle-button:hover {
+    background-color: #1f3446;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
