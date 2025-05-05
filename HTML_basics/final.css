@@ -82,3 +82,7 @@ li {
     max-width: 1000px;
     margin: auto;
 }
+ 
+#extraContent{
+    border-radius: 15px;
+}
